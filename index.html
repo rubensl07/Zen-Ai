@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+    <title>Chatbot</title>
+</head>
+
+<body>
+    <div id="mensagens">
+        <div class="mensagemUsuario mensagem">
+            <div>
+                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo
+                utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os
+                embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como
+                também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na
+                década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente
+                quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            </div>
+        </div>
+        <div class="mensagemBot mensagem">
+            <div>
+                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo
+                utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os
+                embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como
+                também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na
+                década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente
+                quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            </div>
+        </div>
+        <div class="mensagemUsuario mensagem">
+            <div>
+                Lorem Ipsum é simplesmente uma simulação de texto da
+            </div>
+        </div>
+        <div class="mensagemBot mensagem">
+            <div>
+                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo
+                utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os
+                embaralhou
+                para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao
+                salto
+                para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60,
+                quando
+                a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser
+                integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            </div>
+        </div>
+        <div class="mensagemUsuario mensagem">
+            <div>
+                Lorem Ipsum é simplesmente uma simulação de texto da
+            </div>
+        </div>
+    </div>
+
+    <div class="bottomField">
+        <input type="text">
+    </div>
+
+</body>
+
+</html>
+
+<style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #6078A7;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    #mensagens {
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .mensagem{
+        margin: 3px;
+    }
+    .mensagem>div{
+        width: 40%;
+        padding: 1%;
+        border-radius: 32px;
+        font-size: 1rem;
+        max-width: max-content;
+    }
+
+    .mensagemUsuario {
+        padding-left: 5%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .mensagemBot {
+        font-family: monospace;
+
+        padding-right: 5%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .mensagemUsuario>div {
+        background-color: aqua;
+    }
+    .mensagemBot>div {
+        background-color: rgb(189, 189, 189);
+
+    }
+    .bottomField{
+        height: 10rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottomField>input{
+        height: 50%;
+        width: 40%;
+        border-radius: 4rem;
+        padding-inline: 2rem;
+        font-size: 2rem;
+    
+    }
+</style>
