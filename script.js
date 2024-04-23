@@ -120,6 +120,6 @@ input.addEventListener('keypress',(event)=>{
        </div>
    </div>`
        criarMensagens()
-       container.scrolltop = container.scrollheight
+       container.scrollTop = container.scrollHeight
     }
 })
